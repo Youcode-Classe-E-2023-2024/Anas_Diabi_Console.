@@ -296,7 +296,150 @@ body {
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.bigfoot {
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222222;
+}
 
+.bigfoot font {
+    color: #acafad;
+
+
+}
+
+.bigfoot .flexer {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigfoot .toper {
+    width: 60px;
+    height: 60px;
+    margin: 0 40px;
+    border-radius: 50%;
+    background-color: rgba(83, 254, 71, 0.741);
+    text-align: center;
+    border: 2px black solid;
+    line-height: 60px;
+    transition: 0.2s;
+}
+.banana a {
+    text-decoration: none;
+    color: #c5c5c598;
+    font-weight: 700;
+    padding: 30px;
+    font-family: "Quattrocento Sans", sans-serif;
+}
+
+.banana a:hover {
+    color: #a0ca3f;
+
+}
+.bigfoot font a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.bigfoot li {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+    color: #a0ca3f;
+
+
+}
+.bigfoot .fa-facebook:hover {
+    background: linear-gradient(90deg, rgb(0, 211, 211), blue);
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(29, 0, 195, 0.73) 0px 22px 70px 4px;
+
+}
+.bigfoot .line {
+    height: 1px;
+    width: 70%;
+    background-color: #acafad42;
+}
+.bigfoot font {
+    color: #acafad;
+
+
+}
+.vide {
+    height: 20px;
+
+}
+.toper i {
+    color: white;
+    scale: 125%;
+    transition: 0.2s;
+}
+
+.toper:hover i {
+    scale: 150%;
+
+}
+
+.toper:hover {
+    background-color: rgba(153, 205, 50, 0);
+}
+.toper1 {
+    width: 60px;
+    height: 60px;
+    margin: 0 40px;
+
+}
+
+.bigfoot .flexer {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bigfoot .line {
+    height: 1px;
+    width: 70%;
+    background-color: #acafad42;
+}
+.bigfoot img {
+    width: 200px;
+}
+.bigfoot .fa-instagram:hover {
+    background: linear-gradient(45deg, yellow, purple, red);
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(195, 0, 0, 0.73) 0px 22px 70px 4px;
+
+}
+
+.bigfoot .fa-twitter:hover {
+    background: linear-gradient(120deg, cyan, white);
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 133, 195, 0.73) 0px 22px 70px 4px;
+
+}
+
+.bigfoot li i {
+    scale: 150%;
+    border: 2px rgb(0, 0, 0) solid;
+    padding: 8px;
+    margin: 0 20px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.2s;
+    line-height: 20px;
+}
 
 
 @media (max-width:750px) {
@@ -365,5 +508,10 @@ body {
     }
     .hitings{
         margin: 4vw;
+    }
+}
+@media (max-width:752px) {
+    .banana {
+        text-align: center;
     }
 }
